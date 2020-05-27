@@ -1,0 +1,70 @@
+.how_we_figth_area {
+    position: relative;
+    &::before {
+        position: absolute;
+        content: '';
+        width: 50%;
+        right: 0;
+        top: 0;
+        height: 100%;
+        background-image: url(../img/fight/fight.jpg);
+        background-size: cover;
+        background-position: center center;
+        @include border-radius(20px 0 0 20px);
+        @media #{$mobile_device}{
+            display: none;
+        }
+        @media #{$tablet_device}{
+            display: none;
+        }
+    }
+    .fight_info {
+        padding: 180px 0;
+        @media #{$mobile_device} {
+            padding: 80px 0;
+        }
+        @media #{$tablet_device} {
+            padding: 100px 0;
+        }
+
+        .section_title{
+            .mid_text {
+                font-size: 18px;
+                font-family: $font1;
+                color: #1F1F1F;
+                font-weight: 400;
+                margin-bottom: 25px;
+            }
+            .last_p {
+                font-size: 16px;
+                color: #707070;
+                font-weight: 400;
+            }
+        }
+
+        .watch-video {
+            margin-top: 37px;
+            .play_btn{
+                a{
+                    width: 60px;
+                    height: 60px;
+                    @include border-radius(50%);
+                    background: #615CFD;
+                    font-size: 14px;
+                    text-align: center;
+                    line-height: 60px;
+                    color: #fff;
+                    display: inline-block;
+                }
+            }
+            span{
+                font-size: 20px;
+                color: #1F1F1F;
+                font-weight: 400;
+                font-family: $font2;
+                margin-left: 20px;
+            }
+        }
+       
+    }
+}

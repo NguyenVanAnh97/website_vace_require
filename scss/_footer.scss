@@ -1,0 +1,105 @@
+#footer {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    .footer_top {
+        padding-top: 100px;
+        padding-bottom: 160px;
+        background: #1f1f1f;
+        @media #{$mobile_device} {
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+        @media #{$tablet_device} {
+            padding-top: 50px;
+            padding-bottom: 60px;
+        }
+        @media #{$mid_device} {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        .menu-link {
+            @media #{$mobile_device} {
+                margin-top: 17px;
+            }
+            ul{
+                li {
+                    display: inline-block;
+                    margin-right: 46px;
+                    @media #{$mobile_device}{
+                        margin-right: 10px;
+                    }
+                    @media #{$mid_device}{
+                        margin-right: 30px;
+                    }
+                    @media #{$tablet_device}{
+                        margin-right: 30px;
+                    }
+                    a {
+                        color: #fff;
+                        font-size: 15px;
+                        font-weight: 500;
+                        &:hover {
+                            color: #615cdf;
+                        }
+                    }
+                }
+            }
+        }
+
+        .socail_link {
+            text-align: right;
+            @media #{$mobile_device} {
+                text-align: left;
+                margin-top: 30px;
+            }
+
+            @media #{$tablet_device} {
+                text-align: center;
+                margin-top: 30px;
+            }
+
+            ul {
+                li {
+                    display: inline-block;
+                    a {
+                        margin-left: 10px;
+                        color: #fff;
+                        width: 40px;
+                        height: 40px;
+                        display: inline-block;
+                        text-align: center;
+                        background: transparent;
+                        @include border-radius(50%);
+                        line-height: 40px !important;
+                        border: 1px solid #e7f9f9;
+                        font-size: 14px;
+                        &:hover {
+                            color: #fff !important;
+                            background: #615cfd;
+                            border: 1px solid #615cdf;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .coppy_right_text {
+        padding-bottom: 25px;
+        background: #1f1f1f;
+        .footer_border {
+            padding-bottom: 25px;
+            border-top: 1px solid #363636;
+        }
+        .coppy_right {
+            font-size: 15px;
+            color: #c9c9c9;
+            margin-bottom: 0;
+            font-weight: 400;
+            @media #{$mobile_device} {
+                font-size: 13px;
+            }
+        }
+    }
+}
