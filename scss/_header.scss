@@ -30,15 +30,16 @@
         .logo-img{
             text-align: left;
             @media #{$mobile_device} {
-                text-align: left;
+                // text-align: left;
+                padding-left: 20px;
             }
             @media #{$tablet_device} {
-                // padding-left: 20px;
-                text-align: left;
+                padding-left: 20px;
+                // text-align: left;
             }
             @media #{$mid_device} {
-                // padding-left: 20px;
-                text-align: left;
+                padding-left: 20px;
+                // text-align: left;
             }
         }
         .main-menu{

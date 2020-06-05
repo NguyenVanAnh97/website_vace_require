@@ -10,7 +10,7 @@
   z-index: 3;
   font-size: 14px;
   font-weight: 500;
-  color: #615CFD;
+  color: #615cfd;
   text-transform: capitalize;
   margin-bottom: 19px;
   display: block;
@@ -21,7 +21,7 @@
   font-size: 40px;
   line-height: 52px;
   font-weight: 400;
-  color: #1F1F1F;
+  color: #1f1f1f;
   position: relative;
   z-index: 0;
   padding-bottom: 15px;
@@ -103,17 +103,17 @@
   font-size: 16px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #615CFD;
+  border: 1px solid #615cfd;
   text-align: center;
-  color: #615CFD !important;
+  color: #615cfd !important;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 .boxed-btn:hover {
-  background: #615CFD;
+  background: #615cfd;
   color: #fff !important;
-  border: 1px solid #615CFD;
+  border: 1px solid #615cfd;
 }
 
 .boxed-btn:focus {
@@ -126,7 +126,7 @@
 
 .boxed-btn3 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
-  background: #615CFD;
+  background: #615cfd;
   color: #fff;
   display: inline-block;
   padding: 12px 33px;
@@ -145,8 +145,8 @@
 }
 
 .boxed-btn3:hover {
-  border: 1px solid #615CFD;
-  color: #615CFD !important;
+  border: 1px solid #615cfd;
+  color: #615cfd !important;
   background: transparent;
 }
 
@@ -160,7 +160,7 @@
 
 .boxed-btn4 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
-  background: #615CFD;
+  background: #615cfd;
   color: #fff;
   display: inline-block;
   padding: 14px 27px;
@@ -179,7 +179,7 @@
 }
 
 .boxed-btn4:hover {
-  background: #615CFD;
+  background: #615cfd;
   color: #fff !important;
 }
 
@@ -211,7 +211,7 @@
 }
 
 .boxed-btn3-white:hover {
-  background: #28AE61;
+  background: #28ae61;
   color: #fff !important;
   border: 1px solid transparent;
 }
@@ -229,14 +229,14 @@
 }
 
 .boxed-btn3-green-2 {
-  color: #615CFD !important;
+  color: #615cfd !important;
   display: inline-block;
   padding: 14px 31px;
   font-family: "Muli", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #615CFD;
+  border: 1px solid #615cfd;
   border-radius: 5px;
   text-align: center;
   text-transform: capitalize;
@@ -247,7 +247,7 @@
 }
 
 .boxed-btn3-green-2:hover {
-  background: #615CFD;
+  background: #615cfd;
   color: #fff !important;
   border: 1px solid transparent;
 }
@@ -304,25 +304,25 @@
 }
 
 .line-button:hover {
-  color: #009DFF;
+  color: #009dff;
 }
 
 .line-button:hover::before {
-  background: #009DFF;
+  background: #009dff;
 }
 
 .line_btn {
   display: inline-block;
   font-size: 15px;
-  color: #615CFD;
-  border: 1px solid #615CFD;
+  color: #615cfd;
+  border: 1px solid #615cfd;
   text-transform: capitalize;
   padding: 13px 34px;
   font-weight: 600;
 }
 
 .line_btn:hover {
-  background: #615CFD;
+  background: #615cfd;
   color: #fff;
 }
 
@@ -346,7 +346,8 @@ a,
 }
 
 a:focus,
-.button:focus, button:focus {
+.button:focus,
+button:focus {
   text-decoration: none;
   outline: none;
 }
@@ -364,13 +365,17 @@ a:hover,
 
 a,
 button {
-  color: #1F1F1F;
+  color: #1f1f1f;
   outline: medium none;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "Roboto", sans-serif;
-  color: #1F1F1F;
+  color: #1f1f1f;
 }
 
 h1 a,
@@ -495,13 +500,13 @@ h3 {
 .overlay::before {
   position: absolute;
   content: "";
-  background-color: #1F1F1F;
+  background-color: #1f1f1f;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .overlay2 {
@@ -512,7 +517,7 @@ h3 {
 .overlay2::before {
   position: absolute;
   content: "";
-  background-color: #2C2C2C;
+  background-color: #2c2c2c;
   top: 0;
   left: 0;
   width: 100%;
@@ -532,9 +537,9 @@ h3 {
   height: 100%;
   left: 0;
   top: 0;
-  background: #2C2C2C;
-  opacity: .6;
-  content: '';
+  background: #2c2c2c;
+  opacity: 0.6;
+  content: "";
   z-index: -1;
 }
 
@@ -549,8 +554,22 @@ h3 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5db2ff+0,7db9e8+100&1+24,0+96 */
   /* FF3.6-15 */
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#5db2ff), color-stop(24%, #65b4f9), color-stop(96%, rgba(124, 185, 233, 0)), to(rgba(125, 185, 232, 0)));
-  background: linear-gradient(to right, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#5db2ff),
+    color-stop(24%, #65b4f9),
+    color-stop(96%, rgba(124, 185, 233, 0)),
+    to(rgba(125, 185, 232, 0))
+  );
+  background: linear-gradient(
+    to right,
+    #5db2ff 0%,
+    #65b4f9 24%,
+    rgba(124, 185, 233, 0) 96%,
+    rgba(125, 185, 232, 0) 100%
+  );
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db2ff', endColorstr='#007db9e8',GradientType=1 );
   /* IE6-9 */
@@ -584,13 +603,13 @@ h3 {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   width: 40px;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: transparent;
   border-radius: 50%;
   left: 50px;
   font-size: 15px;
   line-height: 40px;
-  border: 1px solid #8E8B8B;
+  border: 1px solid #8e8b8b;
   left: 150px;
 }
 
@@ -616,7 +635,7 @@ h3 {
 
 .owl-carousel:hover .owl-nav div:hover {
   color: #fff;
-  background: #615CFD;
+  background: #615cfd;
   border: 1px solid transparent;
 }
 
@@ -663,11 +682,11 @@ h3 {
 
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #5DB2FF;
+  color: #5db2ff;
 }
 
 .slicknav_menu .slicknav_nav a.active {
-  color: #5DB2FF;
+  color: #5db2ff;
 }
 
 @media (max-width: 767px) {
@@ -761,14 +780,14 @@ h3 {
 @media (max-width: 767px) {
   .header-area .main-header-area {
     padding: 10px 10px;
-    background: #1F1F1F;
+    background: #1f1f1f;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .header-area .main-header-area {
     padding: 10px 10px;
-    background: #1F1F1F;
+    background: #1f1f1f;
   }
 }
 
@@ -790,19 +809,19 @@ h3 {
 
 @media (max-width: 767px) {
   .header-area .main-header-area .logo-img {
-    text-align: left;
+    padding-left: 20px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .header-area .main-header-area .logo-img {
-    text-align: left;
+    padding-left: 20px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .header-area .main-header-area .logo-img {
-    text-align: left;
+    padding-left: 20px;
   }
 }
 
@@ -858,11 +877,11 @@ h3 {
 .header-area .main-header-area .main-menu ul li a.active::before {
   opacity: 1;
   -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .header-area .main-header-area .main-menu ul li a:hover {
-  color: #615CFD;
+  color: #615cfd;
 }
 
 .header-area .main-header-area .main-menu ul li .submenu {
@@ -873,7 +892,7 @@ h3 {
   width: 200px;
   z-index: 2;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
   opacity: 0;
   visibility: hidden;
   text-align: left;
@@ -900,7 +919,7 @@ h3 {
 }
 
 .header-area .main-header-area .main-menu ul li .submenu li:hover a {
-  color: #615CFD;
+  color: #615cfd;
 }
 
 .header-area .main-header-area .main-menu ul li:hover > .submenu {
@@ -912,7 +931,7 @@ h3 {
 .header-area .main-header-area .main-menu ul li:hover > a::before {
   opacity: 1;
   -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .header-area .main-header-area .main-menu ul li:first-child a {
@@ -921,7 +940,7 @@ h3 {
 
 .header-area .main-header-area.sticky {
   -webkit-box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
   top: -70px;
@@ -929,14 +948,15 @@ h3 {
   right: 0;
   z-index: 999;
   -webkit-transform: translateY(70px);
-          transform: translateY(70px);
+  transform: translateY(70px);
   -webkit-transition: background 500ms ease, -webkit-transform 500ms ease;
   transition: background 500ms ease, -webkit-transform 500ms ease;
   transition: transform 500ms ease, background 500ms ease;
-  transition: transform 500ms ease, background 500ms ease, -webkit-transform 500ms ease;
+  transition: transform 500ms ease, background 500ms ease,
+    -webkit-transform 500ms ease;
   -webkit-transition: transform 500ms ease, background 500ms ease;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-  background: #1F1F1F;
+  background: #1f1f1f;
 }
 
 .header-area .main-header-area.sticky .main-menu {
@@ -955,7 +975,7 @@ h3 {
   -moz-justify-content: flex-end;
   -ms-justify-content: flex-end;
   -webkit-box-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
   -ms-flex-pack: flex-end;
 }
 
@@ -975,7 +995,7 @@ h3 {
   content: "";
   height: 3px;
   width: 100%;
-  background: #615CFD;
+  background: #615cfd;
   bottom: 0;
   left: 0;
 }
@@ -1010,7 +1030,7 @@ h3 {
 }
 
 .slider_area .single_slider.about_banner.overlay::before {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .slider_area .single_slider .slider_text h3 {
@@ -1050,7 +1070,7 @@ h3 {
 .slider_area .single_slider .slider_text span {
   font-size: 30px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #ffffff;
   position: relative;
   z-index: 1;
 }
@@ -1060,7 +1080,7 @@ h3 {
   background: #fff;
   width: 50px;
   height: 2px;
-  content: '';
+  content: "";
   left: -67px;
   top: 50%;
   margin-bottom: -1px;
@@ -1108,7 +1128,7 @@ h3 {
 
 .service-area .single-service {
   padding: 48px 35px 45px 35px;
-  border: 2px solid #E8E8E8;
+  border: 2px solid #e8e8e8;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   margin-bottom: 30px;
@@ -1124,14 +1144,14 @@ h3 {
 .service-area .single-service h3 {
   font-size: 24px;
   font-weight: 400;
-  color: #1F1F1F;
+  color: #1f1f1f;
   margin-top: 29px;
   margin-bottom: 13px;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .service-area .single-service h3 {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 
@@ -1148,12 +1168,12 @@ h3 {
 }
 
 .about-area {
-  background: #1F1F1F;
+  background: #1f1f1f;
   position: relative;
 }
 
 .about-area::before {
-  content: '';
+  content: "";
   background-image: url(../img/about/about.jpg);
   left: 0;
   top: 0;
@@ -1219,14 +1239,14 @@ h3 {
 }
 
 .about-area .section_title .mid_text {
-  color: #C9C9C9;
+  color: #c9c9c9;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 14px;
 }
 
 .about-area .section_title .last_text {
-  color: #C9C9C9;
+  color: #c9c9c9;
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 44px;
@@ -1306,7 +1326,7 @@ h3 {
 }
 
 .onepiece_image_area .single_Onepiece .onepiece_hover h3 {
-  color: #1F1F1F;
+  color: #1f1f1f;
   font-size: 24px;
   font-weight: 700;
   margin-top: 11px;
@@ -1331,7 +1351,7 @@ h3 {
 
 .how_we_figth_area::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 50%;
   right: 0;
   top: 0;
@@ -1373,7 +1393,7 @@ h3 {
 .how_we_figth_area .fight_info .section_title .mid_text {
   font-size: 18px;
   font-family: "Muli", sans-serif;
-  color: #1F1F1F;
+  color: #1f1f1f;
   font-weight: 400;
   margin-bottom: 25px;
 }
@@ -1392,7 +1412,7 @@ h3 {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: #615CFD;
+  background: #615cfd;
   font-size: 14px;
   text-align: center;
   line-height: 60px;
@@ -1402,7 +1422,7 @@ h3 {
 
 .how_we_figth_area .fight_info .watch-video span {
   font-size: 20px;
-  color: #1F1F1F;
+  color: #1f1f1f;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   margin-left: 20px;
@@ -1477,14 +1497,14 @@ h3 {
   text-align: center;
   font-size: 14px;
   color: #fff;
-  border: 1px solid #615CFD;
+  border: 1px solid #615cfd;
   display: inline-block;
   background: #615cfd;
 }
 
 .team_area .single_team .team_thumb .team_hover .hover_inner ul li a:hover {
-  background: #615CFD;
-  border: 1px solid #615CFD;
+  background: #615cfd;
+  border: 1px solid #615cfd;
   color: #fff;
 }
 
@@ -1530,9 +1550,9 @@ h3 {
   left: 0;
   top: 0;
   z-index: -1;
-  content: '';
-  background: #1F1F1F;
-  opacity: .6;
+  content: "";
+  background: #1f1f1f;
+  opacity: 0.6;
 }
 
 @media (max-width: 767px) {
@@ -1569,7 +1589,7 @@ h3 {
   font-weight: 400;
   margin-bottom: 4px;
   font-family: "Roboto", sans-serif;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .testimonial_area .single_testmonial .testmonial_author span {
@@ -1605,7 +1625,8 @@ h3 {
   }
 }
 
-.get_in_tauch_area .touch_form .single_input input, .get_in_tauch_area .touch_form .single_input textarea {
+.get_in_tauch_area .touch_form .single_input input,
+.get_in_tauch_area .touch_form .single_input textarea {
   width: 100%;
   border: 1px solid #c9c9c9;
   height: 50px;
@@ -1618,35 +1639,43 @@ h3 {
   font-weight: 400;
 }
 
-.get_in_tauch_area .touch_form .single_input input::-webkit-input-placeholder, .get_in_tauch_area .touch_form .single_input textarea::-webkit-input-placeholder {
+.get_in_tauch_area .touch_form .single_input input::-webkit-input-placeholder,
+.get_in_tauch_area
+  .touch_form
+  .single_input
+  textarea::-webkit-input-placeholder {
   color: #707070;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: 4000;
 }
 
-.get_in_tauch_area .touch_form .single_input input:-ms-input-placeholder, .get_in_tauch_area .touch_form .single_input textarea:-ms-input-placeholder {
+.get_in_tauch_area .touch_form .single_input input:-ms-input-placeholder,
+.get_in_tauch_area .touch_form .single_input textarea:-ms-input-placeholder {
   color: #707070;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: 4000;
 }
 
-.get_in_tauch_area .touch_form .single_input input::-ms-input-placeholder, .get_in_tauch_area .touch_form .single_input textarea::-ms-input-placeholder {
+.get_in_tauch_area .touch_form .single_input input::-ms-input-placeholder,
+.get_in_tauch_area .touch_form .single_input textarea::-ms-input-placeholder {
   color: #707070;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: 4000;
 }
 
-.get_in_tauch_area .touch_form .single_input input::placeholder, .get_in_tauch_area .touch_form .single_input textarea::placeholder {
+.get_in_tauch_area .touch_form .single_input input::placeholder,
+.get_in_tauch_area .touch_form .single_input textarea::placeholder {
   color: #707070;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: 4000;
 }
 
-.get_in_tauch_area .touch_form .single_input input:focus, .get_in_tauch_area .touch_form .single_input textarea:focus {
+.get_in_tauch_area .touch_form .single_input input:focus,
+.get_in_tauch_area .touch_form .single_input textarea:focus {
   outline: none;
 }
 
@@ -1768,6 +1797,19 @@ h3 {
   font-size: 14px;
 }
 
+.scrollUp #fPageTop a {
+  background: #615cfd;
+  border-radius: 50%;
+  box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.12);
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+}
+
 #footer .footer_top .socail_link ul li a:hover {
   color: #fff !important;
   background: #615cfd;
@@ -1796,4 +1838,9 @@ h3 {
     font-size: 13px;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
+
+llUp:hover {
+  bottom: 0;
+}
